@@ -361,7 +361,7 @@ const CandyMachine = ({ walletAddress }) => {
         {renderDropTimer()}
         <p>{`Items Minted: ${machineStats.itemsRedeemed} / ${machineStats.itemsAvailable}`}</p>
         {machineStats.itemsRedeemed === machineStats.itemsAvailable ? (
-          <p className="sub-text">Sold Out 🙊</p>
+          <p className="sub-text">sold out 🙊</p>
         ) : (
           <button className="cta-button mint-button" onClick={mintToken}>
             Mint NFT
