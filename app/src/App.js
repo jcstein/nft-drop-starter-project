@@ -67,7 +67,7 @@ const App = () => {
       <div className="container">
         <div className="header-container">
           <p className="header">💧 blockify theme drop</p>
-          <p className="sub-text">NFT web theme machine with fair mint</p>
+          <p className="sub-text">NFT eCommerce theme machine with fair mint</p>
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && <CandyMachine walletAddress={window.solana} />}
         </div>
