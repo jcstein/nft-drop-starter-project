@@ -69,8 +69,8 @@ const App = () => {
           <p className="header">💧 blockify theme drop</p>
           <p className="sub-text">NFT web theme machine with fair mint</p>
           {!walletAddress && renderNotConnectedContainer()}
+          {walletAddress && <CandyMachine walletAddress={window.solana} />}
         </div>
-        {walletAddress && <CandyMachine walletAddress={window.solana} />}
         <div className="footer-container">
           <img alt="Twitter Logo" className="twitter-logo" src={twitterLogo} />
           <a
