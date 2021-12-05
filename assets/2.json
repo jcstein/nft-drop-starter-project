@@ -1,0 +1,19 @@
+{
+  "name": "blockify: international",
+  "symbol": "",
+  "image": "2.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "2.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "Hu8LvtMJ8FDDc31ZbeEEMGzZkjWcVLHHiAB5x9PxW963",
+        "share": 100
+      }
+    ]
+  }
+}

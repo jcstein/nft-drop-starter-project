@@ -1,0 +1,19 @@
+{
+  "name": "blockify: delivery",
+  "symbol": "",
+  "image": "1.png",
+  "properties": {
+    "files": [
+      {
+        "uri": "1.png",
+        "type": "image/png"
+      }
+    ],
+    "creators": [
+      {
+        "address": "Hu8LvtMJ8FDDc31ZbeEEMGzZkjWcVLHHiAB5x9PxW963",
+        "share": 100
+      }
+    ]
+  }
+}
