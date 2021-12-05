@@ -50,7 +50,7 @@ const App = () => {
       className="cta-button connect-wallet-button"
       onClick={connectWallet}
     >
-      Connect to Wallet
+      connect to wallet
     </button>
   );
 
@@ -68,7 +68,7 @@ const App = () => {
         <div className="header-container">
           <p className="header">💧 blockify theme drop</p>
           <p className="sub-text">
-            NFT eCommerce stores on web3 with fair mint
+            NFT eCommerce stores on web3 with fair mint on Solana
           </p>
           {!walletAddress && renderNotConnectedContainer()}
           {walletAddress && <CandyMachine walletAddress={window.solana} />}
