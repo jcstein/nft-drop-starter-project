@@ -66,7 +66,7 @@ const App = () => {
     <div className="App">
       <div className="container">
         <div className="header-container">
-          <p className="header">💧 blockify theme drop</p>
+          <p className="header">💧 blockify drop</p>
           <p className="sub-text">
             NFT eCommerce stores on web3 with fair mint on Solana
           </p>
